@@ -11,4 +11,7 @@ public class Calculator {
 	public int divide(int i, int j) {
 		return i/j;
 	}
+	public int subbstract(int i, int j) {
+		return i-j;
+	}
 }
