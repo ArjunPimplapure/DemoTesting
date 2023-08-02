@@ -14,4 +14,13 @@ public class CalculatorTests {
 	   assertEquals(exp, act);
 	}
 
-}
+	public void testDivide(){
+		  int exp = 20;
+		   Calculator cal = new Calculator();
+		   int act = cal.divide(20, 20);
+		assertEquals(exp, act);
+		
+	}
+	}
+
+
